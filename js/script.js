@@ -5,7 +5,7 @@ button.addEventListener("click", function(){
     var b = document.getElementById("bValue").value;
     var result = (a * a) - (2 * a * b) - (b * b);
     
-    document.getElementById("result").innerHTML = result;
+    document.getElementById("result").innerHTML = "Result: " + result;
     
    if (result > 0) {
         var resultType = "The result is positive"
